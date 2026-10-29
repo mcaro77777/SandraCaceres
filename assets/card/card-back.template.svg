@@ -27,14 +27,18 @@
   <text x="92" y="206" fill="#102b3f" font-family="Georgia, 'Times New Roman', serif" font-size="47" letter-spacing="-1.5">Conversemos sobre</text>
   <text x="92" y="255" fill="#dc4d45" font-family="Georgia, 'Times New Roman', serif" font-size="47" letter-spacing="-1.5">tu negocio.</text>
 
-  <g transform="translate(92 318)" font-family="Arial, Helvetica, sans-serif">
-    <circle cx="12" cy="10" r="10" fill="#ff6a5f"/>
-    <path d="M7 10h10M12 5v10" stroke="#102b3f" stroke-width="2"/>
-    <text x="38" y="16" fill="#29485d" font-size="22">sandra.caceres@equifax.com</text>
+  <g transform="translate(92 296)" font-family="Arial, Helvetica, sans-serif">
+    <circle cx="12" cy="10" r="11" fill="#25d366"/>
+    <path d="M7 5c1 5 5 9 10 10M8 5l3 3-2 2M17 14l-3-2-2 2" fill="none" stroke="#052412" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="39" y="18" fill="#102b3f" font-size="24" font-weight="800">+56 9 9156 8749</text>
 
-    <circle cx="12" cy="61" r="10" fill="#102b3f"/>
-    <path d="M5 61h14M12 54c3 3 3 11 0 14M12 54c-3 3-3 11 0 14" fill="none" stroke="#f4efe5" stroke-width="1.2"/>
-    <text x="38" y="68" fill="#29485d" font-size="22" font-weight="700">sandracaceres.eu</text>
+    <circle cx="12" cy="57" r="10" fill="#ff6a5f"/>
+    <path d="M7 57h10M12 52v10" stroke="#102b3f" stroke-width="2"/>
+    <text x="39" y="64" fill="#29485d" font-size="20">sandra.caceres@equifax.com</text>
+
+    <circle cx="12" cy="104" r="10" fill="#102b3f"/>
+    <path d="M5 104h14M12 97c3 3 3 11 0 14M12 97c-3 3-3 11 0 14" fill="none" stroke="#f4efe5" stroke-width="1.2"/>
+    <text x="39" y="111" fill="#29485d" font-size="20" font-weight="700">sandracaceres.eu</text>
   </g>
 
   <line x1="92" y1="435" x2="565" y2="435" stroke="#102b3f" stroke-opacity=".16"/>
@@ -43,10 +47,10 @@
   <text x="325" y="472" fill="#102b3f" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Análisis de riesgo</text>
   <text x="92" y="515" fill="#29485d" font-family="Arial, Helvetica, sans-serif" font-size="15">Atención comercial personalizada · Soluciones Equifax DICOM</text>
 
-  <g transform="translate(675 112)">
+  <g transform="translate(625 112)">
     <rect x="-22" y="-22" width="264" height="264" rx="16" fill="#fffdf8" stroke="#102b3f" stroke-opacity=".1"/>
     {{QR_SVG}}
-    <text x="110" y="280" text-anchor="middle" fill="#102b3f" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="800" letter-spacing="1.2">ESCANEA Y CONVERSEMOS</text>
+    <text x="110" y="280" text-anchor="middle" fill="#102b3f" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="800" letter-spacing="1.2">MI TARJETA DIGITAL</text>
   </g>
 </svg>
 

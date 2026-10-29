@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Cáceres;Sandra;;;
+FN:Sandra Cáceres
+TITLE:Asesora Comercial
+ORG:Equifax DICOM
+TEL;TYPE=CELL,VOICE:+56991568749
+EMAIL;TYPE=WORK:sandra.caceres@equifax.com
+URL:https://sandracaceres.eu/
+NOTE:Información comercial, riesgo, proveedores y cobranza.
+END:VCARD

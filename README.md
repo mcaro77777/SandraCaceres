@@ -36,8 +36,9 @@ Los maestros y exportaciones PNG están en `print/`. El PDF final para imprenta 
 - Documento: 96 × 61 mm.
 - Zona segura: 5 mm hacia el interior del corte.
 - QR: dirige a `https://sandracaceres.eu/?utm_source=tarjeta&utm_medium=qr&utm_campaign=contacto`.
+- WhatsApp y teléfono: `+56 9 9156 8749`.
 
-La tarjeta no imprime el teléfono de la imagen de referencia porque el número visible (`+56 9 8407 149`) parece tener un dígito menos que un móvil chileno válido. Verifícalo antes de añadirlo a una tirada de imprenta.
+El QR se mantiene dirigido a la tarjeta digital para poder actualizar productos y canales de contacto sin volver a imprimir. WhatsApp es el contacto principal visible en la landing y la tarjeta.
 
 Para volver a generar los SVG finales:
 

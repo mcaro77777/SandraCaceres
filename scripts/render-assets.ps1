@@ -37,6 +37,7 @@ Invoke-HeadlessChrome @('--headless=new', '--disable-gpu', '--hide-scrollbars', 
 Invoke-HeadlessChrome @('--headless=new', '--disable-gpu', '--no-pdf-header-footer', "--print-to-pdf=$(Join-Path $pdfOutputPath 'tarjeta-sandra-caceres-imprenta.pdf')", $printUrl)
 
 Invoke-HeadlessChrome @('--headless=new', '--disable-gpu', '--hide-scrollbars', '--window-size=1440,1050', "--screenshot=$(Join-Path $qaPath 'landing-desktop.png')", 'http://127.0.0.1:4173/')
+Invoke-HeadlessChrome @('--headless=new', '--disable-gpu', '--hide-scrollbars', '--window-size=1440,2300', "--screenshot=$(Join-Path $qaPath 'landing-full.png')", 'http://127.0.0.1:4173/')
 Invoke-HeadlessChrome @('--headless=new', '--disable-gpu', '--hide-scrollbars', '--window-size=500,920', "--screenshot=$(Join-Path $qaPath 'landing-mobile.png')", 'http://127.0.0.1:4173/.qa/mobile-frame.html')
 
 Get-ChildItem -LiteralPath $outputPath, $pdfOutputPath, $qaPath | Select-Object FullName, Length
