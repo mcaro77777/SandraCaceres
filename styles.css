@@ -62,7 +62,7 @@ svg { display: block; }
 .eyebrow.dark { color: var(--coral-dark); }
 h1, h2, h3, p { text-wrap: pretty; }
 h1, h2 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-weight: 400; letter-spacing: -.045em; }
-h1 { max-width: 730px; font-size: clamp(3.9rem, 5.6vw, 6rem); line-height: .98; }
+h1 { max-width: 790px; font-size: clamp(3.7rem, 5vw, 5.5rem); line-height: .98; }
 h1 em { color: var(--coral); font-weight: 400; }
 .hero-lead { max-width: 650px; margin: 28px 0 0; color: rgba(244,239,229,.72); font-size: clamp(1rem, 1.4vw, 1.16rem); line-height: 1.75; }
 .hero-lead strong { color: var(--paper); }
@@ -102,9 +102,10 @@ h1 em { color: var(--coral); font-weight: 400; }
 .product-card { min-height: 280px; padding: 24px; display: flex; flex-direction: column; background: var(--white); border: 1px solid rgba(16,43,63,.08); border-radius: 18px; transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease; }
 .product-card:hover { transform: translateY(-6px); border-color: rgba(221,76,69,.28); box-shadow: 0 18px 44px rgba(16,43,63,.1); }
 .product-number { color: var(--coral-dark); font-size: .62rem; font-weight: 900; letter-spacing: .12em; }
-.product-card h3 { margin: 46px 0 0; font-family: Georgia, "Times New Roman", serif; font-size: 1.62rem; font-weight: 400; letter-spacing: -.025em; line-height: 1.1; }
+.product-card h3 { margin: 38px 0 0; font-family: Georgia, "Times New Roman", serif; font-size: 1.62rem; font-weight: 400; letter-spacing: -.025em; line-height: 1.1; }
 .product-card p { margin: 14px 0 0; color: var(--muted); font-size: .78rem; line-height: 1.65; }
-.product-card small { margin-top: auto; padding-top: 20px; color: var(--ink); font-size: .65rem; font-weight: 850; text-transform: uppercase; letter-spacing: .08em; }
+.product-name { margin-top: auto; padding-top: 18px; color: var(--coral-dark); font-size: .62rem; font-weight: 900; line-height: 1.4; letter-spacing: .07em; text-transform: uppercase; }
+.product-card small { margin-top: 12px; color: var(--ink); font-size: .65rem; font-weight: 850; text-transform: uppercase; letter-spacing: .08em; }
 
 .contact-band { padding: 80px 0; color: var(--paper); background: var(--coral-dark); }
 .contact-layout { display: grid; grid-template-columns: 1fr .82fr; align-items: center; gap: 80px; }
