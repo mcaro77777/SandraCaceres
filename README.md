@@ -13,6 +13,16 @@ Landing estática, accesible y responsive para la marca personal de Sandra Cáce
 
 Después de crear el servicio, vincula `sandracaceres.eu` y `www.sandracaceres.eu` en la sección de dominios de Easypanel y habilita HTTPS. El DNS debe apuntar a la IP pública del servidor donde corre Easypanel.
 
+### Estado DNS observado
+
+Comprobación del 29 de octubre de 2026:
+
+- `sandracaceres.eu` resuelve a `2.57.91.91` y todavía muestra la página de dominio estacionado de Hostinger.
+- `www.sandracaceres.eu` es un CNAME correcto hacia `sandracaceres.eu`.
+- La captura de Easypanel muestra el panel en `2.24.100.127:3000`.
+
+Antes de publicar, confirma que `2.24.100.127` sea la IP pública del servidor Easypanel y, si lo es, reemplaza el registro A de `@` por esa IP. No añadas el puerto `3000` al DNS: el dominio se vincula dentro de Easypanel y el servicio escucha internamente en el puerto `80`.
+
 ## Vista local
 
 Puedes abrir `index.html` directamente o servir la carpeta con un servidor HTTP estático.
