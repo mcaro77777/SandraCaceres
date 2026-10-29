@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96mm" height="61mm" viewBox="0 0 960 610" role="img" aria-labelledby="title desc">
+  <title id="title">Tarjeta de Sandra Cáceres, reverso</title>
+  <desc id="desc">Datos de contacto y código QR hacia sandracaceres.eu.</desc>
+  <defs>
+    <linearGradient id="back-coral" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff6a5f"/>
+      <stop offset="1" stop-color="#dc4d45"/>
+    </linearGradient>
+    <clipPath id="back-clip"><rect width="960" height="610"/></clipPath>
+  </defs>
+
+  <rect width="960" height="610" fill="#f4efe5"/>
+  <path d="M0 0H50V610H0Z" fill="url(#back-coral)"/>
+  <g clip-path="url(#back-clip)" fill="none">
+    <circle cx="958" cy="604" r="290" stroke="#102b3f" stroke-opacity=".08" stroke-width="2"/>
+    <circle cx="958" cy="604" r="220" stroke="#102b3f" stroke-opacity=".07" stroke-width="2"/>
+    <path d="M650 660C704 452 824 356 1010 324" stroke="#dc4d45" stroke-opacity=".26" stroke-width="2"/>
+  </g>
+
+  <g transform="translate(92 72)">
+    <circle cx="30" cy="30" r="30" fill="#102b3f"/>
+    <text x="30" y="37" text-anchor="middle" fill="#f4efe5" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="800">SC</text>
+    <text x="78" y="26" fill="#102b3f" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800">Sandra Cáceres</text>
+    <text x="78" y="50" fill="#29485d" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="1.7">ASESORA COMERCIAL</text>
+  </g>
+
+  <text x="92" y="206" fill="#102b3f" font-family="Georgia, 'Times New Roman', serif" font-size="47" letter-spacing="-1.5">Conversemos sobre</text>
+  <text x="92" y="255" fill="#dc4d45" font-family="Georgia, 'Times New Roman', serif" font-size="47" letter-spacing="-1.5">tu negocio.</text>
+
+  <g transform="translate(92 318)" font-family="Arial, Helvetica, sans-serif">
+    <circle cx="12" cy="10" r="10" fill="#ff6a5f"/>
+    <path d="M7 10h10M12 5v10" stroke="#102b3f" stroke-width="2"/>
+    <text x="38" y="16" fill="#29485d" font-size="22">sandra.caceres@equifax.com</text>
+
+    <circle cx="12" cy="61" r="10" fill="#102b3f"/>
+    <path d="M5 61h14M12 54c3 3 3 11 0 14M12 54c-3 3-3 11 0 14" fill="none" stroke="#f4efe5" stroke-width="1.2"/>
+    <text x="38" y="68" fill="#29485d" font-size="22" font-weight="700">sandracaceres.eu</text>
+  </g>
+
+  <line x1="92" y1="435" x2="565" y2="435" stroke="#102b3f" stroke-opacity=".16"/>
+  <text x="92" y="472" fill="#102b3f" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Información comercial</text>
+  <circle cx="307" cy="467" r="3" fill="#ff6a5f"/>
+  <text x="325" y="472" fill="#102b3f" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Análisis de riesgo</text>
+  <text x="92" y="515" fill="#29485d" font-family="Arial, Helvetica, sans-serif" font-size="15">Atención comercial personalizada · Soluciones Equifax DICOM</text>
+
+  <g transform="translate(675 112)">
+    <rect x="-22" y="-22" width="264" height="264" rx="16" fill="#fffdf8" stroke="#102b3f" stroke-opacity=".1"/>
+    {{QR_SVG}}
+    <text x="110" y="280" text-anchor="middle" fill="#102b3f" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="800" letter-spacing="1.2">ESCANEA Y CONVERSEMOS</text>
+  </g>
+</svg>
+

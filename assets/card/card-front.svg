@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96mm" height="61mm" viewBox="0 0 960 610" role="img" aria-labelledby="title desc">
+  <title id="title">Tarjeta de Sandra Cáceres, frente</title>
+  <desc id="desc">Marca personal de Sandra Cáceres, asesora comercial.</desc>
+  <defs>
+    <linearGradient id="front-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1e2d"/>
+      <stop offset="1" stop-color="#153d54"/>
+    </linearGradient>
+    <linearGradient id="front-line" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff6a5f" stop-opacity=".72"/>
+      <stop offset="1" stop-color="#f7cfa8" stop-opacity=".08"/>
+    </linearGradient>
+    <clipPath id="front-clip"><rect width="960" height="610"/></clipPath>
+  </defs>
+
+  <rect width="960" height="610" fill="url(#front-bg)"/>
+  <g clip-path="url(#front-clip)" fill="none">
+    <circle cx="894" cy="52" r="288" stroke="#f4efe5" stroke-opacity=".08" stroke-width="2"/>
+    <circle cx="894" cy="52" r="214" stroke="#f4efe5" stroke-opacity=".07" stroke-width="2"/>
+    <circle cx="894" cy="52" r="138" stroke="#f4efe5" stroke-opacity=".06" stroke-width="2"/>
+    <path d="M530 660C590 350 710 198 1025 125" stroke="url(#front-line)" stroke-width="3"/>
+    <path d="M450 685C528 334 721 136 1040 82" stroke="#f4efe5" stroke-opacity=".08" stroke-width="2" stroke-dasharray="8 12"/>
+    <path d="M610 675C661 423 820 294 1046 260" stroke="#f4efe5" stroke-opacity=".07" stroke-width="2"/>
+  </g>
+
+  <g transform="translate(80 75)">
+    <circle cx="50" cy="50" r="50" fill="#ff6a5f"/>
+    <text x="50" y="59" text-anchor="middle" fill="#0a1e2d" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="800" letter-spacing="-1">SC</text>
+  </g>
+
+  <text x="80" y="268" fill="#f4efe5" font-family="Georgia, 'Times New Roman', serif" font-size="76" letter-spacing="-3">Sandra</text>
+  <text x="80" y="342" fill="#f4efe5" font-family="Georgia, 'Times New Roman', serif" font-size="76" letter-spacing="-3">Cáceres</text>
+  <text x="83" y="390" fill="#f7cfa8" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="3.8">ASESORA COMERCIAL</text>
+
+  <line x1="80" y1="448" x2="324" y2="448" stroke="#ff6a5f" stroke-width="3"/>
+  <text x="80" y="490" fill="#f4efe5" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="650">Más claridad para vender.</text>
+  <text x="80" y="520" fill="#f4efe5" fill-opacity=".7" font-family="Arial, Helvetica, sans-serif" font-size="20">Más confianza para decidir.</text>
+
+  <g transform="translate(735 460)">
+    <text x="0" y="0" fill="#f7cfa8" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="750" letter-spacing="1.8">SOLUCIONES</text>
+    <text x="0" y="27" fill="#f4efe5" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Equifax DICOM</text>
+  </g>
+</svg>
+

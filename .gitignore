@@ -1,0 +1,9 @@
+*.log
+.DS_Store
+Thumbs.db
+.qa/
+print/output/*.pdf
+tmp/
+print/output/*.pdf
+tmp/
+
